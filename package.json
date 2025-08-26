@@ -1,0 +1,25 @@
+{
+  "name": "week-8-course-selling-app",
+  "version": "1.0.0",
+  "description": "- Initialize a new Node.js Project - Add Express.js and jsonwebtoken to its dependency - Create index.js - Add route skeleton for user login, signup, purchase a course, see course. - Add route for Admin Signup, Admin login, create a course, delete a course, add course content. - Add middleware for User and admin auth. - Add database(mongodb), use dotenv to store the database connection string. - Define schema for user, admin, course, purchase. - Complete the routes for user login, signup, purchase a course, see course (Extra points - use express routing to better structure your routes) - Create a frontend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiteshJ1998/100xdevs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiteshJ1998/100xdevs/issues"
+  },
+  "homepage": "https://github.com/NiteshJ1998/100xdevs#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  }
+}
