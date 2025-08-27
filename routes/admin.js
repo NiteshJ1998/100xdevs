@@ -15,19 +15,19 @@ adminRouter.post("/login", function (req, res) {
   });
 });
 
-adminRouter.post("/course", function (req, res) {
+adminRouter.post("/", function (req, res) {
   res.json({
     message: "Course created successfully",
   });
 });
 
-adminRouter.patch("/course", function (req, res) {
+adminRouter.patch("/", function (req, res) {
   res.json({
     message: "Course edited successfully",
   });
 });
 
-adminRouter.get("/course", function (req, res) {
+adminRouter.get("/bulk", function (req, res) {
   res.json({
     message: "Courses fetched successfully",
   });
